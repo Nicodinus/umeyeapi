@@ -996,12 +996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nicodinus/umeyeapi-core.git",
-                "reference": "4678097393ab92958c1f10c4a661d69fa6a40ea9"
+                "reference": "526a9e4598a23999ef1ac1b9964cdd8dd55ae5d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nicodinus/umeyeapi-core/zipball/4678097393ab92958c1f10c4a661d69fa6a40ea9",
-                "reference": "4678097393ab92958c1f10c4a661d69fa6a40ea9",
+                "url": "https://api.github.com/repos/Nicodinus/umeyeapi-core/zipball/526a9e4598a23999ef1ac1b9964cdd8dd55ae5d9",
+                "reference": "526a9e4598a23999ef1ac1b9964cdd8dd55ae5d9",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
                 "source": "https://github.com/Nicodinus/umeyeapi-core/tree/master",
                 "issues": "https://github.com/Nicodinus/umeyeapi-core/issues"
             },
-            "time": "2020-03-21T00:57:37+00:00"
+            "time": "2020-03-21T02:44:31+00:00"
         },
         {
             "name": "phpinnacle/buffer",
