@@ -1,0 +1,56 @@
+{
+  "name": "nicodinus/umeyeapi",
+  "homepage": "https://github.com/Nicodinus/umeyeapi",
+  "description": "Reverse engineering of Umeye Api protocol",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicodinus",
+      "email": "nicodinus@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nicodinus\\UmeyeApi\\": "lib"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nicodinus\\UmeyeApi\\Test\\": "test"
+    }
+  },
+  "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/Nicodinus/amphp-extensions"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/Nicodinus/umeyeapi-core"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.2",
+    "nicodinus/umeyeapi-core": "dev-master",
+    "haydenpierce/class-finder": "^0.4.0",
+    "larapack/dd": "^1.1",
+    "symfony/console": "^5.0",
+    "symfony/http-foundation": "^5.0",
+    "league/flysystem": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.2"
+    }
+  },
+  "scripts": {
+    "test": "@php -dzend.assertions=1 -dassert.exception=1 ./vendor/bin/phpunit",
+    "restart_zosiview": "@php ./internal/restart_zosiview.php superuser"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
